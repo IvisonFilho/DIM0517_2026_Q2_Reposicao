@@ -31,9 +31,7 @@ jobs:
 
     - name: Compilar
       run: 
-        g++ cpp/*.cpp \
-            -Iinclude \
-            -o testes 
+        g++ cpp/Calc.cpp cpp/test_calc.cpp -o testes
     
     - name: Testar
       run: |
