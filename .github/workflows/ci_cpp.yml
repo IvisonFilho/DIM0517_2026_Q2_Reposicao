@@ -35,4 +35,4 @@ jobs:
     
     - name: Testar
       run: |
-          cpp/Calc.cpp cpp/test_Calc.cpp
+         cpp/test_Calc.cpp
