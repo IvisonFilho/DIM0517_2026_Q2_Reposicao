@@ -32,4 +32,7 @@ jobs:
     - name: Compilar
       run: 
         g++ cpp/*.cpp 
-        
+    
+    - name: Testar
+      run: |
+          cpp/test_Calc.cpp
