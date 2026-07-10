@@ -31,8 +31,8 @@ jobs:
 
     - name: Compilar
       run: 
-        g++ cpp/Calc.cpp cpp/test_calc.cpp 
+        g++ cpp/Calc.cpp cpp/test_Calc.cpp 
     
     - name: Testar
       run: |
-          cpp/Calc.cpp cpp/test_calc.cpp
+          cpp/Calc.cpp cpp/test_Calc.cpp
